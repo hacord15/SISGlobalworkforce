@@ -5,20 +5,18 @@ import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <section className="relative h-[70vh] min-h-[580px] flex items-center overflow-hidden">
+    <section className="relative h-[71.6vh] min-h-[580px] flex items-center overflow-hidden">
       {/* Background video — loop, muted, autoplay */}
-      <video
-        className="absolute inset-0 w-full h-full object-cover"
-        autoPlay
-        muted
-        loop
-        playsInline
-        poster="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1600&q=80"
-      >
-        {/* Replace src with your actual video file path, e.g. /videos/hero.mp4 */}
-        <source src="/videos/hero.mp4" type="video/mp4" />
-        {/* Fallback poster image renders if video fails */}
-      </video>
+     <video
+  className="absolute inset-0 w-full h-full object-cover"
+  autoPlay
+  muted
+  loop
+  playsInline
+  poster="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1600&q=80"
+>
+  <source src="/hero.mp4" type="video/mp4" />
+</video>
 
       {/* Overlay */}
       <div className="hero-video-overlay absolute inset-0" />

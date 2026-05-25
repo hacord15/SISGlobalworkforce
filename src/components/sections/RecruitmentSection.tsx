@@ -240,7 +240,7 @@ export default function RecruitmentSection() {
                       style={{ overflow: "hidden" }}
                     >
                       <p className="text-xs text-brand-grey-400 leading-relaxed mt-2">
-                        {s.description}
+                        {/* {s.description} */}
                       </p>
                     </motion.div>
                   </div>
