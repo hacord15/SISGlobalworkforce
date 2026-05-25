@@ -1,9 +1,11 @@
+import { LucideIcon } from "lucide-react";
+
 // Industry type
 export interface Industry {
   id: string;
   title: string;
   description: string;
-  icon: string;
+  icon: LucideIcon;
   image: string;
   href: string;
 }
@@ -27,7 +29,7 @@ export interface RecruitmentStep {
   id: number;
   title: string;
   description: string;
-  icon: string;
+  icon: LucideIcon;
 }
 
 // Country data
@@ -42,5 +44,5 @@ export interface WhyCard {
   id: number;
   title: string;
   description: string;
-  icon: string;
+  icon: LucideIcon;
 }

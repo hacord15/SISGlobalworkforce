@@ -1,5 +1,24 @@
 import type { Industry, NavItem, Stat, RecruitmentStep, CountryData, WhyCard } from "@/types";
-
+import {
+  HeartPulse,
+  Hotel,
+  Cog,
+  Truck,
+  Wrench,
+  MonitorSmartphone,
+  RefreshCcw,
+  Bot,
+  BarChart3,
+  Zap,
+  ShieldCheck,
+  Building2,
+  ClipboardList,
+  Search,
+  Target,
+  Bookmark,
+  Handshake,
+  PartyPopper,
+} from "lucide-react";
 export const navItems: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about",children: [
@@ -29,53 +48,70 @@ export const stats: Stat[] = [
   { value: 29180, label: "Placements" },
 ];
 
-export const industries: Industry[] = [
+export const industries = [
   {
     id: "healthcare",
     title: "Healthcare",
-    description: "Reliable healthcare staffing solutions for hospitals, clinics, elderly care, and home healthcare.",
-    icon: "❤️",
-    image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&q=80",
+    description:
+      "Reliable healthcare staffing solutions for hospitals, clinics, elderly care, and home healthcare.",
+    icon: HeartPulse,
+    image:
+      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&q=80",
     href: "/industries/healthcare",
   },
+
   {
     id: "hospitality",
     title: "Hospitality",
-    description: "Supporting hospitality brands with trained professionals for hotels, resorts, restaurants, and catering services.",
-    icon: "🏨",
-    image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400&q=80",
+    description:
+      "Supporting hospitality brands with trained professionals for hotels, resorts, restaurants, and catering services.",
+    icon: Hotel,
+    image:
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400&q=80",
     href: "/industries/hospitality",
   },
+
   {
     id: "oil-gas",
     title: "Oil & Gas",
-    description: "Technical workforce solutions for EPC, shutdowns, refineries, and industrial plants.",
-    icon: "⚙️",
-    image: "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=400&q=80",
+    description:
+      "Technical workforce solutions for EPC, shutdowns, refineries, and industrial plants.",
+    icon: Cog,
+    image:
+      "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=400&q=80",
     href: "/industries/oil-gas",
   },
+
   {
     id: "logistics",
     title: "Logistics & Warehousing",
-    description: "Workforce solutions for warehouses, e-commerce, supply chain companies, and distribution centers.",
-    icon: "🚚",
-    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400&q=80",
+    description:
+      "Workforce solutions for warehouses, e-commerce, supply chain companies, and distribution centers.",
+    icon: Truck,
+    image:
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400&q=80",
     href: "/industries/logistics",
   },
+
   {
     id: "engineering-mep",
     title: "Engineering & MEP",
-    description: "Technical staffing support for MEP projects, facility management, commercial buildings, and industrial operations.",
-    icon: "🔧",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&q=80",
+    description:
+      "Technical staffing support for MEP projects, facility management, commercial buildings, and industrial operations.",
+    icon: Wrench,
+    image:
+      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&q=80",
     href: "/industries/engineering-mep",
   },
+
   {
     id: "it-technology",
     title: "IT & Technology",
-    description: "Skilled technology professionals for software development, infrastructure, and digital transformation projects.",
-    icon: "💻",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&q=80",
+    description:
+      "Skilled technology professionals for software development, infrastructure, and digital transformation projects.",
+    icon: MonitorSmartphone,
+    image:
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&q=80",
     href: "/industries/it-technology",
   },
 ];
@@ -84,38 +120,44 @@ export const whyCards: WhyCard[] = [
   {
     id: 1,
     title: "End-to-End Solutions",
-    description: "We handle the entire workforce lifecycle — from sourcing and screening to onboarding and compliance — so you can focus on growing your business.",
-    icon: "🔄",
+    description:
+      "We handle the entire workforce lifecycle — from sourcing and screening to onboarding and compliance — so you can focus on growing your business.",
+    icon: RefreshCcw,
   },
   {
     id: 2,
     title: "Technology Driven",
-    description: "Our proprietary platform uses AI-powered matching and real-time analytics to connect you with verified candidates faster than traditional methods.",
-    icon: "🤖",
+    description:
+      "Our proprietary platform uses AI-powered matching and real-time analytics to connect you with verified candidates faster than traditional methods.",
+    icon: Bot,
   },
   {
     id: 3,
     title: "Structured & Transparent",
-    description: "Clear SLAs, regular reporting, and dedicated account managers ensure you always have full visibility into your workforce deployment.",
-    icon: "📊",
+    description:
+      "Clear SLAs, regular reporting, and dedicated account managers ensure you always have full visibility into your workforce deployment.",
+    icon: BarChart3,
   },
   {
     id: 4,
     title: "Faster Turnaround",
-    description: "Our pre-verified talent pool and streamlined processes mean critical positions are filled in days, not weeks.",
-    icon: "⚡",
+    description:
+      "Our pre-verified talent pool and streamlined processes mean critical positions are filled in days, not weeks.",
+    icon: Zap,
   },
   {
     id: 5,
     title: "Compliance Guaranteed",
-    description: "We stay ahead of labor regulations, ensuring full legal compliance across all geographies and industry sectors.",
-    icon: "✅",
+    description:
+      "We stay ahead of labor regulations, ensuring full legal compliance across all geographies and industry sectors.",
+    icon: ShieldCheck,
   },
   {
     id: 6,
     title: "Backed by SIS India",
-    description: "As a venture of SIS India Ltd., we bring decades of operational excellence and a national network to every engagement.",
-    icon: "🏛️",
+    description:
+      "As a venture of SIS India Ltd., we bring decades of operational excellence and a national network to every engagement.",
+    icon: Building2,
   },
 ];
 
@@ -123,38 +165,44 @@ export const recruitmentSteps: RecruitmentStep[] = [
   {
     id: 1,
     title: "Requirement Analysis",
-    description: "We deep-dive into your business needs, culture, and specific role requirements to define the ideal candidate profile.",
-    icon: "📋",
+    description:
+      "We deep-dive into your business needs, culture, and specific role requirements to define the ideal candidate profile.",
+    icon: ClipboardList,
   },
   {
     id: 2,
     title: "Talent Sourcing",
-    description: "Our team leverages multiple channels — database, job boards, referrals, and headhunting — to identify qualified candidates.",
-    icon: "🔍",
+    description:
+      "Our team leverages multiple channels — database, job boards, referrals, and headhunting — to identify qualified candidates.",
+    icon: Search,
   },
   {
     id: 3,
     title: "Screening & Assessment",
-    description: "Rigorous multi-stage screening including skill tests, background verification, and structured interviews.",
-    icon: "🎯",
+    description:
+      "Rigorous multi-stage screening including skill tests, background verification, and structured interviews.",
+    icon: Target,
   },
   {
     id: 4,
     title: "Shortlisting",
-    description: "Only the top-matched candidates are presented to you with detailed profiles and assessment reports.",
-    icon: "📌",
+    description:
+      "Only the top-matched candidates are presented to you with detailed profiles and assessment reports.",
+    icon: Bookmark,
   },
   {
     id: 5,
     title: "Client Interview",
-    description: "We coordinate and facilitate interviews, providing support to both clients and candidates throughout the process.",
-    icon: "🤝",
+    description:
+      "We coordinate and facilitate interviews, providing support to both clients and candidates throughout the process.",
+    icon: Handshake,
   },
   {
     id: 6,
     title: "Offer & Onboarding",
-    description: "Seamless offer management, document verification, and a structured onboarding process for smooth joining.",
-    icon: "🎉",
+    description:
+      "Seamless offer management, document verification, and a structured onboarding process for smooth joining.",
+    icon: PartyPopper,
   },
 ];
 
