@@ -2,9 +2,12 @@ import type { Industry, NavItem, Stat, RecruitmentStep, CountryData, WhyCard } f
 
 export const navItems: NavItem[] = [
   { label: "Home", href: "/" },
-  { label: "About Us", href: "/about" },
+  { label: "About Us", href: "/about",children: [
+      { label: "SIS Global", href: "/solutions/permanent" },
+      { label: "SIS India Group", href: "/solutions/contract" },
+    ], },
   {
-    label: "Workforce Solutions",
+    label: "Solutions",
     href: "/solutions",
     children: [
       { label: "Permanent Staffing", href: "/solutions/permanent" },
@@ -13,9 +16,9 @@ export const navItems: NavItem[] = [
       { label: "HR Consulting", href: "/solutions/hr-consulting" },
     ],
   },
-  { label: "Industries", href: "/industries" },
-  { label: "Employers", href: "/employers" },
-  { label: "Job Openings", href: "/jobs" },
+  // { label: "Industries", href: "/industries" },
+  { label: "Verticals", href: "/employers" },
+  { label: "Jobs", href: "/jobs" },
   { label: "Contact Us", href: "/contact" },
 ];
 

@@ -5,6 +5,7 @@ import { industries } from "@/data";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
+
 export default function IndustriesSection() {
   const { ref, isVisible } = useIntersectionObserver();
 

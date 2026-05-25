@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { whyCards } from "@/data";
 
+
 export default function WhySISSection() {
   const sectionRef = useRef<HTMLDivElement>(null);
   const [visibleCards, setVisibleCards] = useState<Set<number>>(new Set());
