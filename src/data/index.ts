@@ -39,7 +39,7 @@ export const navItems: NavItem[] = [
   { label: "Verticals", href: "/industries" },
    { label: "Employer", href: "/employer" },
   { label: "Jobs", href: "/jobs" },
-  { label: "Contact Us",  href: "/contact" },
+  { label: "Contact Us",  href: "/" },
 ];
 
 export const stats: Stat[] = [
