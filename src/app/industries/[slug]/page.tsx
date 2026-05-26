@@ -128,7 +128,7 @@ export default async function IndustryPage({
               </p>
 
               <Link
-                href="/contact"
+                href="/"
                 className="btn-primary"
               >
                 Get Industry Staffing

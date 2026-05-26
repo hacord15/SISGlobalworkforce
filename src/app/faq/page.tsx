@@ -271,7 +271,7 @@ export default function FAQPage() {
                   <p className="font-bold text-sm mb-1" style={{ fontFamily: "var(--font-display)" }}>Still have questions?</p>
                   <p className="text-white/70 text-xs leading-relaxed mb-4">Our team replies within 4 working hours.</p>
                   <Link
-                    href="/contact"
+                    href="/"
                     className="block w-full py-2.5 rounded-lg bg-white text-center text-sm font-bold text-brand-red hover:bg-brand-grey-50 transition-colors"
                   >
                     Contact Support →

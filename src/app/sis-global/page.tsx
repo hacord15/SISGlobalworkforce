@@ -338,7 +338,7 @@ export default function AboutPage() {
               <Link href="/find-jobs" className="btn-outline !text-white !border-white hover:!bg-white hover:!text-brand-red">
                 Browse Jobs <ArrowRight size={15} />
               </Link>
-              <Link href="/contact" className="btn-outline !text-white !border-white/50 hover:!bg-white/20">
+              <Link href="/" className="btn-outline !text-white !border-white/50 hover:!bg-white/20">
                 Get In Touch
               </Link>
             </div>
