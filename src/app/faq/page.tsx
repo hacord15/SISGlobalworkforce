@@ -337,7 +337,7 @@ export default function FAQPage() {
                   </p>
 
                   <div className="flex flex-wrap justify-center gap-3">
-                    <Link href="/contact" className="btn-primary text-sm">
+                    <Link href="/" className="btn-primary text-sm">
                       <MessageSquare size={14} /> Contact Support
                     </Link>
                     <a
