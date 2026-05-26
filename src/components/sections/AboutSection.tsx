@@ -72,7 +72,7 @@ export default function AboutSection() {
                 Learn More <ArrowRight size={16} />
               </Link>
               <Link
-                href="/contact"
+                href="/"
                 className="px-6 py-3 border border-brand-grey-300 text-brand-grey-700 text-sm font-semibold tracking-wider uppercase hover:border-brand-red hover:text-brand-red transition-colors"
                 style={{ fontFamily: "var(--font-display)" }}
               >
