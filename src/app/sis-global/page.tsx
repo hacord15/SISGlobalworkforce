@@ -104,7 +104,7 @@ export default function AboutPage() {
                   Find Jobs <ArrowRight size={15} />
                 </Link>
                 <Link
-                  href="/contact"
+                  href="/"
                   className="flex items-center gap-2 px-6 py-3 border border-brand-grey-300 text-brand-grey-700 text-sm font-semibold rounded hover:border-brand-red hover:text-brand-red transition-colors"
                   style={{ fontFamily: "var(--font-display)", letterSpacing: "0.05em" }}
                 >
@@ -152,7 +152,7 @@ export default function AboutPage() {
                   className="text-4xl font-bold text-brand-grey-900 leading-tight mb-5"
                   style={{ fontFamily: "var(--font-display)" }}
                 >
-                  Built by People Who&apos;ve Been in Your Shoes
+                  Built by People Who Understand the Journey
                 </h2>
                 <div className="section-divider section-divider-left mb-6" />
                 <p className="text-brand-grey-500 leading-relaxed mb-4">
