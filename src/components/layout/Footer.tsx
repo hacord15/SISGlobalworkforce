@@ -20,11 +20,11 @@ const footerLinks = {
     { label: "Blog", href: "/blog" },
     { label: "Shop", href: "/shop" },
     { label: "Press Kit", href: "/press" },
-    { label: "Contact", href: "/contact" },
+    { label: "Contact", href: "/" },
   ],
   Support: [
     { label: "Help Center", href: "/help" },
-    { label: "FAQ's", href: "/faqs" },
+    { label: "FAQ's", href: "/faq" },
     { label: "Terms of Service", href: "/terms" },
     { label: "Privacy Policy", href: "/privacy" },
     { label: "Cookie Policy", href: "/cookies" },
