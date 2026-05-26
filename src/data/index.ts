@@ -21,9 +21,9 @@ import {
 } from "lucide-react";
 export const navItems: NavItem[] = [
   { label: "Home", href: "/" },
-  { label: "About Us", href: "/about",children: [
-      { label: "SIS Global", href: "/solutions/permanent" },
-      { label: "SIS India Group", href: "/solutions/contract" },
+  { label: "About Us", href: "/",children: [
+      { label: "SIS Global", href: "/sis-global" },
+      { label: "SIS India Group", href: "/sis-india-group" },
     ], },
   {
     label: "Solutions",
@@ -36,16 +36,17 @@ export const navItems: NavItem[] = [
     ],
   },
   // { label: "Industries", href: "/industries" },
-  { label: "Verticals", href: "/employers" },
+  { label: "Verticals", href: "/industries" },
+   { label: "Employer", href: "/employer" },
   { label: "Jobs", href: "/jobs" },
-  { label: "Contact Us", href: "/contact" },
+  { label: "Contact Us",  href: "/contact" },
 ];
 
 export const stats: Stat[] = [
-  { value: 93178, label: "Live Jobs" },
-  { value: 12534, label: "Companies" },
-  { value: 56240, label: "Candidates" },
-  { value: 29180, label: "Placements" },
+  { value: 9317, label: "Live Jobs" },
+  { value: 1253, label: "Companies" },
+  { value: 5624, label: "Candidates" },
+  { value: 2918, label: "Placements" },
 ];
 
 export const industries = [

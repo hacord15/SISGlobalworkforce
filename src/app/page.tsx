@@ -25,7 +25,7 @@ export default function HomePage() {
         <CTASection />
       </main>
       <Footer />
-      <QuickForm />
+      {/* <QuickForm /> */}
     </>
   );
 }

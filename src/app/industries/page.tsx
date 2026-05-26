@@ -15,7 +15,7 @@ export default function IndustriesPage() {
       <Navbar />
       <main>
         {/* Page Hero */}
-        <section className="py-16 red-gradient-section text-white text-center">
+        {/* <section className="py-16 red-gradient-section text-white text-center">
           <div className="max-w-7xl mx-auto px-4">
             <div className="flex items-center justify-center gap-2 text-white/60 text-sm mb-4">
               <Link href="/" className="hover:text-white transition-colors">Home</Link>
@@ -32,7 +32,7 @@ export default function IndustriesPage() {
               Specialized workforce solutions tailored to your sector&apos;s unique demands.
             </p>
           </div>
-        </section>
+        </section> */}
 
         <IndustriesSection />
         <CTASection />
