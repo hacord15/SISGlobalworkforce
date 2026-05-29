@@ -4,6 +4,7 @@ import { useIntersectionObserver } from "@/lib/useIntersectionObserver";
 import { CheckCircle, ArrowRight } from "lucide-react";
 import Link from "next/link";
 
+
 const highlights = [
   "End-to-End Solutions",
   "Structured & Transparent",
@@ -68,11 +69,11 @@ export default function AboutSection() {
             </div>
 
             <div className="flex gap-4">
-              <Link href="/about" className="btn-primary">
+              <a href="/" className="btn-primary">
                 Learn More <ArrowRight size={16} />
-              </Link>
+              </a>
               <Link
-                href="/"
+                href="/contact"
                 className="px-6 py-3 border border-brand-grey-300 text-brand-grey-700 text-sm font-semibold tracking-wider uppercase hover:border-brand-red hover:text-brand-red transition-colors"
                 style={{ fontFamily: "var(--font-display)" }}
               >

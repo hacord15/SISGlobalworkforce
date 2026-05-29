@@ -25,7 +25,7 @@ export default function CTASection() {
           Let SIS Global Workforce Solutions handle your hiring. Get access to verified talent across all industries.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href="/hire" className="btn-outline !text-white !border-white hover:!bg-white hover:!text-brand-red">
+          <Link href="/employers" className="btn-outline !text-white !border-white hover:!bg-white hover:!text-brand-red">
             Hire Workforce <ArrowRight size={16} />
           </Link>
           <a href="tel:01244171888" className="btn-outline !text-white !border-white/60 hover:!bg-white/20">

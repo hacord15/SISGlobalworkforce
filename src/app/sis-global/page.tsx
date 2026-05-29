@@ -100,7 +100,7 @@ export default function AboutPage() {
                 a job that excites them, and every company deserves a team that drives them forward.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link href="/find-jobs" className="btn-primary">
+                <Link href="/jobs" className="btn-primary">
                   Find Jobs <ArrowRight size={15} />
                 </Link>
                 <Link
@@ -335,7 +335,7 @@ export default function AboutPage() {
               SIS Global Workforce Solutions is your partner.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/find-jobs" className="btn-outline !text-white !border-white hover:!bg-white hover:!text-brand-red">
+              <Link href="/jobs" className="btn-outline !text-white !border-white hover:!bg-white hover:!text-brand-red">
                 Browse Jobs <ArrowRight size={15} />
               </Link>
               <Link href="/" className="btn-outline !text-white !border-white/50 hover:!bg-white/20">

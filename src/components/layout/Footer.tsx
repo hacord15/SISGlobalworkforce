@@ -16,11 +16,11 @@ const footerLinks = {
     { label: "Enterprise", href: "/enterprise" },
   ],
   Company: [
-    { label: "About Us", href: "/about" },
+    { label: "About Us", href: "/sis-global" },
     { label: "Blog", href: "/blog" },
     { label: "Shop", href: "/shop" },
     { label: "Press Kit", href: "/press" },
-    { label: "Contact", href: "/" },
+    { label: "Contact", href: "/contact" },
   ],
   Support: [
     { label: "Help Center", href: "/help" },

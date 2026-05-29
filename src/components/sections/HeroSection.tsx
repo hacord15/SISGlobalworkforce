@@ -36,7 +36,7 @@ export default function HeroSection() {
             Connecting businesses with skilled, verified and reliable workforce across industries.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Link href="/hire" className="btn-primary">
+            <Link href="/employers" className="btn-primary">
               Hire Workforce <ArrowRight size={16} />
             </Link>
             <Link href="/solutions" className="btn-outline">

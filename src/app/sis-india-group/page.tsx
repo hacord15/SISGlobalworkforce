@@ -486,7 +486,7 @@ export default function SISIndiaGroupPage() {
               <h3 className="text-3xl font-bold mb-4 leading-tight" style={{ fontFamily: "var(--font-display)" }}>Looking for Workforce Solutions Specifically?</h3>
               <p className="text-white/70 text-sm leading-relaxed mb-8">Hire skilled, verified talent across all industries with our end-to-end recruitment and staffing services.</p>
               <div className="flex flex-wrap gap-3">
-                <Link href="/find-jobs" className="btn-outline !text-white !border-white hover:!bg-white hover:!text-brand-red">
+                <Link href="/jobs" className="btn-outline !text-white !border-white hover:!bg-white hover:!text-brand-red">
                   Browse Jobs <ArrowRight size={14} />
                 </Link>
                 <a href="tel:01244171888" className="flex items-center gap-2 px-4 py-2.5 border border-white/40 text-white/80 text-sm font-semibold rounded hover:border-white hover:text-white transition-colors" style={{ fontFamily: "var(--font-display)", letterSpacing: "0.05em" }}>
