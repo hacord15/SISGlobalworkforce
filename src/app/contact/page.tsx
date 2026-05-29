@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
-import ContactClient from "./ContactClient.tsx";
+import ContactClient from "./ContactClient";
 
 // ── Static data lives here so it never ships to the browser bundle ────────
 
